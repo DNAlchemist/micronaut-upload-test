@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: micronaut-upload-test
+  server:
+    port: 9102
+    maxRequestSize: 1000MB
+    multipart:
+      maxFileSize: 1000MB
